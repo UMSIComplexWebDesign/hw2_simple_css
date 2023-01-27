@@ -1,12 +1,10 @@
 body{
+    font: Arial, Verdana;
+    background-color: #000000;
+    color: #ffffff;
     margin-top:20x;
     margin-left:20x;
     margin-right:20x;
-    font: Arial, Verdana;
-    background-color: #000000;
-
-    color: #ffffff;
-
  }
  
  h1{
