@@ -22,7 +22,7 @@ h2{
     padding-top: 10px;
     padding-left: 10px;
  }
- img {
+ /* img {
     border: 10px;
     border-style: dashed;
     width: 250px;
@@ -31,9 +31,20 @@ h2{
     margin-right: auto;
     border: 10px;
     border-color: #ffffff;
+} */
+img {
+    border:10px #0000ff;
+    border-style: dashed;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-style: dashed;
+    border-color: #ffffff;
 }
+
 div {
-    border: 15px;
+    border:10px #ffffff;
     min-height: 125px;
     padding: 20px;
     border-color: #ffffff;
