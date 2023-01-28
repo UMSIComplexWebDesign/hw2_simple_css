@@ -32,7 +32,7 @@ h2{
     border: 10px;
     border-color: #ffffff;
 }
-div {
+div body {
     border: 3px;
     border-color: #ffffff;
     min-height: 125px;
