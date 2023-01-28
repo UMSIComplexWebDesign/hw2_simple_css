@@ -35,11 +35,11 @@ h2{
 img {
     border:10px #0000ff;
     border-style: dashed;
+    display: block;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
     border: 10px;
-    border-style: dashed;
     border-color: #ffffff;
 }
 
@@ -47,10 +47,21 @@ div {
     border:10px #ffffff;
     min-height: 125px;
     padding: 20px;
-    border-color: #ffffff;
-    border-style: none;
+    border-style: solid;
     border-width: 20px;
+    border-color: #ffffff;
 }
+/* div {
+    border:10px #0000ff;
+    border-style: solid;
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-style: dashed;
+    border-color: #ffffff;
+} */
 /* div body {
     border: 3px;
     border-color: #ffffff;
