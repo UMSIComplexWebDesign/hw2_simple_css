@@ -1,10 +1,17 @@
-
- h1{
+body{
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top:20x;
+    margin-left:20x;
+    margin-right:20x;
+}  
+h1{
     font-size: 42px;
     text-align: center;
     padding: 15px;
  
- }
+}
 h2{
     font-size: 30px;
     color: #0D0D0D;
@@ -37,12 +44,9 @@ img {
 }
 
 div {
-    border:3px #ffffff;
+    border: 3px solid #ffffff;
     min-height: 125px;
     padding: 20px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #ffffff;
 }
 /* div {
     border:10px #0000ff;
@@ -71,23 +75,13 @@ div {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
-    border-top: 0px;
-    border-right: 0px;
-    border-color: #ffffff;
-    border-style: solid;
+    border-width: 0px 0px 2px 5px;
 }
 .blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-style: solid;
-    border-color: #ffffff;
+    border-width: 2px 5px 0px 0px;
 }
 .blue header {
     color: #C4C4C4;
@@ -99,12 +93,7 @@ div {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
-    border-right: 0px;
-    border-top: 0px;
-    border-style: solid;
-    border-color: #ffffff;
+    border-width: 0px 0px 2px 5px;
 }
 .yellow p {
     color: #707070;
@@ -117,8 +106,7 @@ div {
     border-top: 2px;
     border-left: 0px;
     border-bottom: 0px;
-    border-style: solid;
-    border-color: #ffffff;
+    border-width: 2px 5px 0px 0px;
 }
 footer {
     background: rgb(0,0,0);
