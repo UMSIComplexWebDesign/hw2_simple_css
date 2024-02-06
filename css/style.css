@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top:20x;
+    margin-left:20x;
+    margin-right:20x;
+}  
+h1{
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+ 
+}
+h2{
+    font-size: 30px;
+    color: #0D0D0D;
+ }
+ p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+ }
+ /* img {
+    border: 10px;
+    border-style: dashed;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-color: #ffffff;
+} */
+img {
+    border:10px #0000ff;
+    border-style: dashed;
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-style: dashed;
+    border-color: #ffffff;
+}
+
+div {
+    border: 3px solid #ffffff;
+    min-height: 125px;
+    padding: 20px;
+}
+/* div {
+    border:10px #0000ff;
+    border-style: solid;
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-style: dashed;
+    border-color: #ffffff;
+} */
+/* div body {
+    border: 3px;
+    border-color: #ffffff;
+    min-height: 125px;
+    padding: 20px;
+} */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2.0;
+    border-color: #ffffff;
+}
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0px 0px 2px 5px;
+}
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0px 0px;
+}
+.blue header {
+    color: #C4C4C4;
+ }
+.blue p {
+    color: #C4C4C4;
+ }
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0px 0px 2px 5px;
+}
+.yellow p {
+    color: #707070;
+}
+.green {
+    background-color: #00D800;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-width: 2px 5px 0px 0px;
+}
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(94deg, rgba(0,0,0,1) 25%, rgba(0,0,255,1) 70%, rgba(0,102,255,1) 100%);
+    border: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
